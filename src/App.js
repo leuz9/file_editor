@@ -68,7 +68,7 @@ class App extends React.Component {
         {/* to do : load the file to be edited */}
         <div className="filetoedit">
           <form>
-            <label for="myfile">Selected file:</label>
+            <label for="myfile">Selected File:</label>
             <input type="" id="myfile" name="myfile"></input>
           </form>
         </div>
