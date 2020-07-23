@@ -65,6 +65,14 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
+        <div className="filetoedit">
+          <form>
+            <label for="myfile">Select a file:</label>
+            <input type="file" id="myfile" name="myfile">
+              
+            </input>
+          </form>
+        </div>
         <div className="content">
           <header>
             <form id="to-do-form" onSubmit={this.addItem}>
